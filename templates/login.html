@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>javascript form validation</title>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<link href="css/style.css" rel="stylesheet">
+<script src="js/jquery.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/jquery.validate.js"></script>
+<script src="js/formValidation.js"></script>
+</head>
+<body>
+<section>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-8 userReg">
+        <div class="row">
+        <div class="col-md-12 py-5 text-light text-center">
+        <div class="userRegCont">
+        <h2 class="pb-4 text-center">Sale Force</h2>
+        <p>We are excited to launch our new company and product Sale Force. After being featured in too many magazines to mention and having created an online stir, we know that Bootstrap is going to be big. We also hope to win Startup Fictional Business of the Year this year.</p>
+        <p>
+        <a href="#" class="btn btn-outline-primary">Know More</a>
+        </p>
+        </div>
+        </div>
+         </div>
+      </div>
+      <div class="col-md-4 border-left col-100vh">
+        <div class="row py-5">
+          <div class="col-md-12">
+            <h4 class="pb-4 text-center">Sign In</h4>
+            <form id="signupForm" method="get" action="">
+              <div class="form-row">
+                <div class="form-group col-md-12">
+                  <label>Username</label>
+                  <input id="username" name="username"  class="form-control" type="text">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-12">
+                  <label>Password</label>
+                  <input id="password" name="password" class="form-control" type="password">
+                </div>
+                 </div>
+              <div class="form-row">
+                <div class="form-group col-md-12">
+                  <input class="btn btn-primary  btn-block" type="submit" value="Login">
+                </div>
+              </div>
+            </form>
+            <div class="form-row">
+              <div class="form-group col-md-12">
+                <div>
+                <div><label class="form-check-label"><a href="forgotpassword.html"> Forgot password?</a> </label></div>
+                 <div><label class="form-check-label"> Don't have an account? <a href="index.html"> Create an Account</a> </label></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<script type="text/javascript" src="js/imageuploadify.min.js"></script> 
+<script type="text/javascript">
+            $(document).ready(function() {
+                $('input[type="file"]').imageuploadify();
+            })
+        </script>
+</body>
+</html>
